@@ -10,7 +10,7 @@ import cors from 'cors';
 
 const app = express();
 app.use(cors({
-  origin: 'https://dreamapp-e693c.ew.r.appspot.com/', // Replace with your Firebase Hosting URL
+  origin: 'https://dream-app-eta.vercel.app', // Replace with your Frontend Hosting URL
   optionsSuccessStatus: 200 // Some legacy browsers choke on 204
 }));
 app.use(express.json());
